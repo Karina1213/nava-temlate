@@ -1,0 +1,7 @@
+.button {
+    font-family: 'Raleway', sans-serif;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,11 @@
+.footer {
+    padding: 45px 50px;
+    background-color: #404040;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .footer__row {*/
+/*       flex-direction: column;*/
+/*    }*/
+/*}*/
+

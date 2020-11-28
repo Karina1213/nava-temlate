@@ -1,0 +1,7 @@
+.button_boat {
+    padding: 13px 13px 13px 35px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: url("../../../assets/images/boat.png") 10px center no-repeat #e7434e;
+}

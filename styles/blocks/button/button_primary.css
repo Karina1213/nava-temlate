@@ -1,0 +1,15 @@
+.button_primary {
+    padding: 13px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    background-color: #e7434e;
+    border: none;
+}
+
+.button_primary:hover {
+    color: #e7434e;
+    background-color: #ffffff;
+}

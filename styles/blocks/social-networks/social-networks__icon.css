@@ -1,0 +1,12 @@
+.social-networks__icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #717171;
+    border-radius: 60%;
+}

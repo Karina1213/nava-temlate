@@ -1,0 +1,6 @@
+.top-section__block {
+    margin-bottom: 150px;
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+}

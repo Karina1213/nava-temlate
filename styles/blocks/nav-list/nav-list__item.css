@@ -1,0 +1,8 @@
+.nav-list__item {
+    padding-right: 40px;
+    transition: all 200ms ease-in-out;
+}
+
+.nav-list__item_hovered:hover {
+    transform: scale(1.1);
+}

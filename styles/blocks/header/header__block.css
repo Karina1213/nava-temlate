@@ -1,0 +1,6 @@
+.header__block{
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}

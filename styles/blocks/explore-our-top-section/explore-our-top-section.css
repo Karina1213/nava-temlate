@@ -1,0 +1,30 @@
+.explore-our-top-section {
+    margin-bottom: 100px;
+}
+
+.explore-our-top-section__sub-title {
+    color: #343435;
+    margin-bottom: 40px;
+}
+
+.explore-our-top-section__content {
+    margin-bottom: 83px;
+}
+
+.explore-our-top-section__button {
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    color: #000000;
+}
+
+.explore-our-top-section__button_hovered:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.destinations-gallery {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,9 @@
+.statistics {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transform: translateY(50%);
+    box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+}
