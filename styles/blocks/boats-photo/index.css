@@ -1,1 +1,4 @@
-@import './boats-photo.css';
+@import 'boats-photo.css';
+@import "boats-photo__block.css";
+@import "boats-photo__content-block.css";
+@import "boats-photo__place-img.css";

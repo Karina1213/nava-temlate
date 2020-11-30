@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .nav-list__button{
+        padding-top: 25px;
+    }
+}

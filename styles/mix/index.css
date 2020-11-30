@@ -1,2 +1,3 @@
-@import "content.css";
-@import "display-flex.css";
+@import "flex/index.css";
+@import "text-align/index.css";
+@import "margin/index.css";

@@ -2,3 +2,9 @@
     color: #ffffff;
     margin-bottom: 80px;
 }
+
+@media (max-width: 375px) {
+    .sub-title {
+        margin-bottom: 30px;
+    }
+}

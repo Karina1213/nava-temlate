@@ -20,7 +20,14 @@
                 <img src="assets/images/logo.png">
             </div>
 
-            <nav class="nav">
+            <nav id="nav" class="nav">
+
+                <ul id="burgerMenu" class="burger-menu">
+                    <li class="line burger-menu__line-first"></li>
+                    <li class="line burger-menu__line-second"></li>
+                    <li class="line burger-menu__line-third"></li>
+                </ul>
+
                 <ul class="nav-list">
                     <li class="nav-list__item nav-list__item_hovered">
                         <a class="nav-list__link" href="#">Top destinations</a>
@@ -39,7 +46,6 @@
 </header>
 
 <main>
-
     <section class="top-section">
         <div class="container">
             <div class="display-flex">
@@ -78,88 +84,94 @@
         </div>
     </section>
 
-
     <section class="explore-our-top-section">
         <div class="container">
+            <div class="text-align_center">
+                <h3 class="sub-title explore-our-top-section__sub-title">EXPLORE OUR TOP DESTINATIONS</h3>
+                <p class="content explore-our-top-section__content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et.
+                </p>
 
-            <h3 class="sub-title explore-our-top-section__sub-title">EXPLORE OUR TOP DESTINATIONS</h3>
-            <p class="content explore-our-top-section__content"> Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit, sed do eiusmod tempor
-                incididunt ut labore et.</p>
+                <div id="destinationsGallery" class="destinations-gallery">
 
-            <div class="destinations-gallery">
+                    <div class="photo__first-block">
 
-                <div class="photo__first-block">
-                    <div class="photo">
-                        <img class="photo__place-img" src="assets/images/place_1.png">
+                        <div class="photo  photo_margin">
+                            <img class="photo__place-img photo__place-img_max-width-768"
+                                 src="assets/images/place_1.png">
 
-                        <a class="button button_primary button_boat" href="#">
-                            <span class="button__count">730</span>
-                        </a>
-                        <div class="photo__content--block">
-                            <a class="photo__town"> Figueira da Foz</a>
-                            <a class="photo__country"> Portugal</a>
+                            <a class="button button_primary button_boat" href="#">
+                                <span>730</span>
+                            </a>
+                            <div class="photo__content--block">
+                                <a class="photo__town"> Figueira da Foz</a>
+                                <a class="photo__country"> Portugal</a>
+                            </div>
+                        </div>
+
+                        <div class="photo margin-0">
+                            <img class="photo__place-img photo__place-img_max-width-369"
+                                 src="assets/images/place_2.png">
+
+                            <a class="button button_primary button_boat" href="#">
+                                <span>730</span>
+                            </a>
+                            <div class="photo__content--block">
+                                <a class="photo__town"> Figueira da Foz</a>
+                                <a class="photo__country"> Portugal</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="photo">
-                        <img class="photo__place-img" src="assets/images/place_2.png">
 
-                        <a class="button button_primary  button_boat" href="#">
-                            <span class="button__count">730</span>
-                        </a>
-                        <div class="photo__content--block">
-                            <a class="photo__town"> Figueira da Foz</a>
-                            <a class="photo__country"> Portugal</a>
+                    <div class="photo__second-block">
+                        <div class="photo__block photo_margin">
+                            <img class="photo__place-img "
+                                 src="assets/images/place_3.png">
+
+                            <a class="button button_primary button_boat" href="#">
+                                <span>730</span>
+                            </a>
+                            <div class="photo__content--block">
+                                <a class="photo__town"> Figueira da Foz</a>
+                                <a class="photo__country"> Portugal</a>
+                            </div>
+                        </div>
+
+                        <div class="photo__block  photo_margin">
+                            <img class="photo__place-img "
+                                 src="assets/images/place_4@2x.png">
+
+                            <a class="button button_primary button_boat" href="#">
+                                <span>730</span>
+                            </a>
+                            <div class="photo__content--block">
+                                <a class="photo__town"> Figueira da Foz</a>
+                                <a class="photo__country"> Portugal</a>
+                            </div>
+                        </div>
+
+                        <div class="photo__block">
+                            <img class="photo__place-img" src="assets/images/place_5.png">
+
+                            <a class="button button_primary button_boat" href="#">
+                                <span>730</span>
+                            </a>
+                            <div class="photo__content--block">
+                                <a class="photo__town"> Figueira da Foz</a>
+                                <a class="photo__country"> Portugal</a>
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
 
-
-                <div class="photo__second-block">
-                    <div class="photo__block">
-                        <img class="photo__place-img" src="assets/images/place_3.png">
-
-                        <a class="button button_primary button_boat" href="#">
-                            <span class="button__count">730</span>
-                        </a>
-                        <div class="photo__content--block">
-                            <a class="photo__town"> Figueira da Foz</a>
-                            <a class="photo__country"> Portugal</a>
-                        </div>
-                    </div>
-
-                    <div class="photo__block">
-                        <img class="photo__place-img" src="assets/images/place_4@2x.png">
-
-                        <a class="button button_primary button_boat" href="#">
-                            <span class="button__count">730</span>
-                        </a>
-                        <div class="photo__content--block">
-                            <a class="photo__town"> Figueira da Foz</a>
-                            <a class="photo__country"> Portugal</a>
-                        </div>
-                    </div>
-
-                    <div class="photo__block">
-                        <img class="photo__place-img" src="assets/images/place_5.png">
-
-                        <a class="button button_primary button_boat" href="#">
-                            <span class="button__count">730</span>
-                        </a>
-                        <div class="photo__content--block">
-                            <a class="photo__town"> Figueira da Foz</a>
-                            <a class="photo__country"> Portugal</a>
-                        </div>
-
-                    </div>
-                </div>
-
+                <a class="explore-our-top-section__button explore-our-top-section__button_hovered button button_secondary "
+                   href="#">EXPLORE MORE DESTINATIONS
+                </a>
             </div>
-
-            <a class="explore-our-top-section__button explore-our-top-section__button_hovered button button_secondary "
-               href="#">EXPLORE MORE DESTINATIONS
-            </a>
         </div>
 
         </div>
@@ -167,70 +179,115 @@
 
     <section class="have-our-section">
         <div class="container">
-            <h4 class="title">HAVE YOUR OWN BOAT?</h4>
-            <p class="sub-title have-our-section__sub-title">Navigare necesse est, vivere non est necesse</p>
+            <div class="text-align_center">
+                <h4 class="title">HAVE YOUR OWN BOAT?</h4>
+                <p class="sub-title have-our-section__sub-title">Navigare necesse est, vivere non est necesse</p>
 
-            <a class="button button_primary" href="#">Make money with your boat</a>
+                <a class="button button_primary" href="#">
+                    Make money with your boat
+                </a>
+            </div>
         </div>
     </section>
 
     <section class="featured-boats-section">
         <div class="container">
-            <h4 class="sub-title featured-boats-section__sub-title">Featured boats</h4>
-            <p class="content featured-boats-section__content "> Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit, sed do eiusmod </p>
 
-            <div class="boats-photo">
+            <div class="text-align_center">
+                <h4 class="sub-title featured-boats-section__sub-title">Featured boats</h4>
+                <p class="content featured-boats-section__content "> Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod </p>
 
-                <div>
+                <div class="boats-photo">
+                    <div>
+                        <div class="boats-photo__block margin-right-20 margin-bottom-20 margin-right-0-media">
+                            <img class="boats-photo__place-img" src="assets/images/boat-1.png">
+                            <a class="button button_primary button_cost" href="#">€580 / day </a>
 
-                    <div class="boats-photo__block">
-                        <img class="boats-photo__place-img" src="assets/images/boat-1.png">
-                        <a class="button button_primary button_cost" href="#">€580 / day </a>
+                            <div class="boats-photo__content-block">
+                                <a class="photo__town">Delphia 47</a>
+                                <a class="photo__country">
+                                    <span class="photo__icon">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Gdańsk,Poland
+                                    </span>
 
-                        <div class="boats-photo__content-block">
-                            <a class="photo__town">Delphia 47</a>
-                            <a class="photo__country">Gdańsk, Poland 8 Berths </a>
+                                    <span>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        8 Berths
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="boats-photo__block margin-right-20 margin-bottom-20 margin-right-0-media">
+                            <img class="boats-photo__place-img" src="assets/images/boat-2.png">
+                            <a class="button button_primary  button_cost" href="#">€580 / day </a>
+
+                            <div class="boats-photo__content-block">
+                                <a class="photo__town">Delphia 47</a>
+                                <a class="photo__country">
+                                    <span class="photo__icon">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Gdańsk,Poland
+                                    </span>
+
+                                    <span>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        8 Berths
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="boats-photo__block">
-                        <img class="boats-photo__place-img" src="assets/images/boat-2.png">
-                        <a class="button button_primary  button_cost" href="#">€580 / day </a>
+                    <div>
+                        <div class="boats-photo__block margin-bottom-20">
+                            <img class="boats-photo__place-img" src="assets/images/boat-3.png">
+                            <a class="button button_primary  button_cost" href="#">€580 / day </a>
 
-                        <div class="boats-photo__content-block">
-                            <a class="photo__town">Delphia 47</a>
-                            <a class="photo__country">Gdańsk, Poland 8 Berths </a>
+                            <div class="boats-photo__content-block">
+                                <a class="photo__town">Delphia 47</a>
+                                <a class="photo__country">
+                                    <span class="photo__icon">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Gdańsk,Poland
+                                    </span>
+
+                                    <span>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                         8 Berths
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="boats-photo__block">
+                            <img class="boats-photo__place-img" src="assets/images/boat-4.png">
+                            <a class="button button_primary  button_cost" href="#">€580 / day </a>
+
+                            <div class="boats-photo__content-block">
+                                <a class="photo__town">Delphia 47</a>
+                                <a class="photo__country">
+                                    <span class="photo__icon">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Gdańsk,Poland
+                                    </span>
+
+                                    <span>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        8 Berths
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div class="boats-photo__block">
-                        <img class="boats-photo__place-img" src="assets/images/boat-3.png">
-                        <a class="button button_primary  button_cost" href="#">€580 / day </a>
-
-                        <div class="boats-photo__content-block">
-                            <a class="photo__town">Delphia 47</a>
-                            <a class="photo__country">Gdańsk, Poland 8 Berths </a>
-                        </div>
-                    </div>
-
-                    <div class="boats-photo__block">
-                        <img class="boats-photo__place-img" src="assets/images/boat-4.png">
-                        <a class="button button_primary  button_cost" href="#">€580 / day </a>
-
-                        <div class="boats-photo__content-block">
-                            <a class="photo__town">Delphia 47</a>
-                            <a class="photo__country">Gdańsk, Poland 8 Berths </a>
-                        </div>
-                    </div>
-                </div>
+                <a class="button button_secondary explore-our-top-section__button explore-our-top-section__button_hovered"
+                   href="#">LOAD MORE BOATS
+                </a>
             </div>
-
-            <a class="button button_secondary explore-our-top-section__button explore-our-top-section__button_hovered"
-               href="#">LOAD MORE BOATS
-            </a>
         </div>
     </section>
 </main>
@@ -239,6 +296,7 @@
     <div class="container">
 
         <div class="footer__row">
+
             <ul class="footer__block">
                 <li class="footer__title">top location</li>
 
@@ -249,7 +307,7 @@
                 <li class="footer__content">Incididunt ut labore</li>
             </ul>
 
-            <ul class="footer__block">
+            <ul class="footer__block footer__featured-boats">
                 <li class="footer__title">FEATURED BOATS</li>
 
                 <li class="footer__content">Lorem ipsum dolor</li>
@@ -272,7 +330,6 @@
                     <i class="fa fa-google-plus social-networks__icon" aria-hidden="true"></i>
                 </div>
             </ul>
-            >
 
             <ul class="footer__block">
                 <li class="footer__title">CONTACT US</li>
@@ -284,10 +341,10 @@
                 <li class="footer__content">Incididunt ut labore</li>
             </ul>
         </div>
-
     </div>
 </footer>
 
 <script src="js/header.js"></script>
+<script src="js/burger.js"></script>
 </body>
 </html>

@@ -1,0 +1,9 @@
+.explore-our-top-section__button {
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    color: #000000;
+}
+
+.explore-our-top-section__button_hovered:hover {
+    background-color: #000000;
+    color: #ffffff;
+}

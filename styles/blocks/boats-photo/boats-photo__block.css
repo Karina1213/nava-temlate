@@ -1,0 +1,13 @@
+.boats-photo__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.boats-photo__block:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.6s ease-out;
+}

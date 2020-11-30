@@ -4,3 +4,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 576px) {
+    .top-section__block {
+        padding-top: 200px;
+    }
+}

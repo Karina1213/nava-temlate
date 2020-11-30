@@ -6,3 +6,10 @@
 .nav-list__item_hovered:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .nav-list__item {
+        text-align: center;
+        padding: 10px 0;
+    }
+}

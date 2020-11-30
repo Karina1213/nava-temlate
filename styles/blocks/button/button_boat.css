@@ -3,5 +3,10 @@
     position: absolute;
     top: 15px;
     left: 15px;
+    font-size: 0;
     background: url("../../../assets/images/boat.png") 10px center no-repeat #e7434e;
+}
+
+.button_boat:hover{
+    font-size: 20px;
 }

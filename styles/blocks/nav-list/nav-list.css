@@ -4,3 +4,11 @@
     justify-content: space-between;
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}

@@ -1,2 +1,12 @@
 @import "photo.css";
 @import "photo__first-block.css";
+@import "photo__block.css";
+@import "photo__content--block.css";
+@import "photo__country.css";
+@import "photo__icon.css";
+@import "photo__place-img.css";
+@import "photo__place-img_max-width-369.css";
+@import "photo__place-img_max-width-768.css";
+@import "photo__second-block.css";
+@import "photo__town.css";
+@import "photo_margin.css";

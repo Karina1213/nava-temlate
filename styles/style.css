@@ -14,6 +14,11 @@
 @import "blocks/sub-title/index.css";
 @import "blocks/statistics/index.css";
 @import "blocks/social-networks/index.css";
-@import "blocks/fa/index.css";
-@import "blocks/boats-photo/boats-photo.css";
+@import "blocks/boats-photo/index.css";
+@import "blocks/burger-menu/index.css";
+@import "blocks/nav/index.css";
+@import "blocks/line/index.css";
+@import "blocks/toggle/index.css";
+@import "blocks/content/index.css";
+@import "blocks/destinations-gallery/index.css";
 @import "mix/index.css";

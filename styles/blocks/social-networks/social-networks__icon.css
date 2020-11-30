@@ -10,3 +10,9 @@
     background-color: #717171;
     border-radius: 60%;
 }
+
+.social-networks__icon:hover {
+    cursor: pointer;
+    color: #717171;
+    background-color: #ffffff;
+}

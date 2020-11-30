@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .nav {
+        position: absolute;
+        background-color: #404040;;
+        right: 100%;
+        top: 0px;
+        height: 70vh;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: position 2.9s;
+    }
+}

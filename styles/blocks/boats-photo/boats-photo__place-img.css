@@ -1,0 +1,13 @@
+.boats-photo__place-img {
+    max-height: 340px;
+    max-width: 574px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+@media (max-width: 375px) {
+    .boats-photo__place-img {
+        max-height: 240px;
+    }
+}

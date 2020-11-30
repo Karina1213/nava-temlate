@@ -6,4 +6,16 @@
     border-radius: 5px;
     transform: translateY(50%);
     box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+    z-index: 3;
+}
+
+@media (max-width: 576px) {
+    .statistics {
+        padding: 20px;
+        flex-direction: column;
+        max-width: 250px;
+        width: 100%;
+        margin-bottom: 20px;
+        transform:unset;
+    }
 }
