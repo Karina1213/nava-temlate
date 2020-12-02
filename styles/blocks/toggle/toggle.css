@@ -2,19 +2,19 @@
     left: 0;
 }
 
-/*.toggle .burger-menu__line-first {*/
-/*    background-color: #404040;*/
-/*    transform: scale(0.9) rotateZ(-45deg) translate(-6px, 6px);*/
-/*}*/
+.toggle .burger-menu__line-first {
+    background-color: #404040;
+    transform: scale(0.9) rotateZ(-45deg) translate(-6px, 6px);
+}
 
-/*.toggle .burger-menu__line-second {*/
-/*    display: none;*/
-/*}*/
+.toggle .burger-menu__line-second {
+    display: none;
+}
 
-/*.toggle .burger-menu__line-third {*/
-/*    background-color: #404040;;*/
-/*    transform: scale(0.9) rotateZ(45deg) translate(-6px, -6px);*/
-/*}*/
+.toggle .burger-menu__line-third {
+    background-color: #404040;;
+    transform: scale(0.9) rotateZ(45deg) translate(-6px, -6px);
+}
 
 .toggle .burger-menu {
     background-color: white;
